@@ -31,6 +31,7 @@ jobs:
 
       - name: Build project
         run: npm run build
+        working-directory: my-app
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
