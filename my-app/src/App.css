@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* Blank profile pictures for similar users. */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+  
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+/* Blank profile pictures for users of featured tips. */
+
+.profile-tip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+  
+.profile-pic-tip {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-name-tip {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.profile-container-tip {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; 
+}
+
+/* Default text size. */
+
+.text-size {
+  font-size: 0.8em;
+} 
+
+/* Default header size. */
+
+.header-size {
+  font-size: 2em;
+}
